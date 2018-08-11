@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule matthew-photograpy index.html
+RewriteRule about-me about.html
+RewriteRule visit-my-gallery gallery.html
+RewriteRule photography-blog blog.html
+RewriteRule contact-photographer contact.html

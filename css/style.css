@@ -89,7 +89,7 @@ ul > li > ol >li:first-child {
 	repeat: repeat;
 }
 .container {
-	background-image: url("img/main-photo.png"); /* photograph taken by Mateusz Jaworski */
+	background-image: url("../img/main-photo.png"); /* photograph taken by Mateusz Jaworski */
 	background-size: 100%;
 	margin: 0px auto;
 	padding: 0;
@@ -489,7 +489,7 @@ input[type=submit]:hover, .load-more:hover {
 	left: 50%;
 }
 .stripes {
-	background-image: url("img/background.PNG");
+	background-image: url("../img/background.PNG");
 }
 .left-blog {
 	float: left;
@@ -559,8 +559,8 @@ input[type=submit]:hover, .load-more:hover {
 	cursor: pointer;
 }
 .right-blog img {
-	margin-left:35px;
-	margin-top: 138px;
+	margin-left: 35px;
+	margin-top: 167px;
 }
 .container-about {
 	margin: 150px auto;
@@ -620,5 +620,10 @@ input[type=submit]:hover, .load-more:hover {
 	margin-top: -20px;
 	right: 220px;
 }
-
+.content .text p {
+	line-height: 1.75;
+}
+.below-img p {
+	line-height: 1.5;
+}
 

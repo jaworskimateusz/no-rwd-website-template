@@ -74,6 +74,7 @@ ul > li > ol >li:first-child {
 	font-size: 72px;
 	border-bottom: 2px solid white;
 	float: left;
+	transform: translateZ(-2px);
 }
 .logo h2 {
 	border-top: 2px solid white;
@@ -90,13 +91,13 @@ ul > li > ol >li:first-child {
 }
 .container {
 	background-image: url("../img/main-photo.png"); /* photograph taken by Mateusz Jaworski */
-	background-size: 100%;
-	margin: 0px auto;
-	padding: 0;
-	width:100%;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .overflow-index {
 	position:relative;
 	height:750px;

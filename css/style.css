@@ -359,8 +359,9 @@ input[type=submit]:hover, .load-more:hover {
 	margin-bottom: 20px;
 }
 .content-gallery {
-	width: 1100px;
+	max-width: 1100px;
 	margin: 80px auto;
+	padding: 25px;
 }
 .content-gallery p, .photograph-ansel p, .photograph p {
 	font-size: 28px;
@@ -374,7 +375,7 @@ input[type=submit]:hover, .load-more:hover {
 	letter-spacing: 0;
 }
 .quote {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 100px auto;
 	font-size:48px;
 	font-weight:  350;
@@ -394,28 +395,27 @@ input[type=submit]:hover, .load-more:hover {
 }
 .spring .dog {
 	float: left;
-	width: 400px;
+	max-width: 400px;
 }
 .spring .dog img, .spring .sea img, .spring .frog img {
 	width: 100%;
 }
 .spring .sea {
 	float:right;
-	width: 500px;
+	max-width: 500px;
 	margin-top: 50px;
 }
 .spring .frog {	
 	float: right;
 	margin-top: 70px;
-	width: 800px;
+	max-width: 800px;
 }
 .summer {
-	height:1700px;
 	position:relative;
 }
 .summer .birds {
 	float: left;
-	width: 700px;
+	max-width: 700px;
 	position:absolute;
 }
 .summer .birds img, .summer .limb img, .summer .river img {
@@ -423,16 +423,16 @@ input[type=submit]:hover, .load-more:hover {
 }
 .summer .limb {
 	float: right;
-	width: 600px;
+	max-width: 600px;
 	margin-top: 390px;
 }
 .summer .river {	
 	margin: 60px auto;
-	width: 900px;
+	max-width: 900px;
 }
 .autumn .bird {
 	float: left;
-	width: 400px;
+	max-width: 400px;
 	position:absolute;
 }
 .autumn .bird img, .autumn .park img, .autumn .snake img {
@@ -440,12 +440,12 @@ input[type=submit]:hover, .load-more:hover {
 }
 .autumn .park {
 	float: right;
-	width: 600px;
+	max-width: 600px;
 	margin-top: 250px;
 }
 .autumn .snake {	
 	margin: 60px 0;
-	width: 700px;
+	max-width: 700px;
 }
 .autumn h2 {
 	text-align: right;
@@ -453,7 +453,7 @@ input[type=submit]:hover, .load-more:hover {
 }
 .winter .dog-forest {
 	float: left;
-	width: 400px;
+	max-width: 400px;
 	position:absolute;
 }
 .winter .dog-forest img, .winter .rising img, .winter .forest img {
@@ -461,10 +461,10 @@ input[type=submit]:hover, .load-more:hover {
 }
 .winter .rising  {
 	float: right;
-	width: 600px;
+	max-width: 600px;
 }
 .winter .forest {	
-	width: 1200px;
+	max-width: 1200px;
 	margin: 180px 0;
 }
 .winter h2 {
@@ -485,6 +485,9 @@ input[type=submit]:hover, .load-more:hover {
 }
 .content-gallery img:hover {
 	 opacity:1;
+}
+.birds img, .limb img, .bird img, .park img, .dog-forest img, .rising img {
+	opacity: 1;
 }
 .background {
 	font-size:160px;
@@ -569,7 +572,7 @@ input[type=submit]:hover, .load-more:hover {
 }
 .container-about {
 	margin: 150px auto;
-	max-width: 1100px;
+	width: 1100px;
 	min-height: 600px;
 }
 .container-about h1 {

@@ -5,6 +5,9 @@ body {
 	font-size: 18px;
 	background-color: #efefef;
 	color:#2F3030;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
 }
 .navigation {
 	position: relative;
@@ -66,7 +69,7 @@ ul > li > ol >li:first-child {
 	color: #fff;
 	width: 370px;
 	position: absolute;
-	left: 55%;
+	right: 17%;
     top: 42%; 
 }
 .logo h1 {
@@ -78,7 +81,6 @@ ul > li > ol >li:first-child {
 }
 .logo h2 {
 	border-top: 2px solid white;
-	text-align: right;
 	float:left;
 	margin-top:145.5px;
 	color: white;
@@ -105,7 +107,8 @@ ul > li > ol >li:first-child {
 }
 .content {
 	margin-top: 120px;
-	width: 1200px;
+	max-width: 1200px;
+	padding: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -118,7 +121,7 @@ main h2 {
 	font-weight:380;
 }
 .description {
-	width: 500px;
+	max-width: 500px;
 	margin: 20px;
 	padding: 10px;
 	padding-left: 50px;
@@ -127,7 +130,7 @@ main h2 {
 	border-left: 1px solid black;
 }
 .description-ansel {
-	width: 500px;
+	max-width: 500px;
 	margin: 20px;
 	padding: 10px;
 	padding-right: 50px;
@@ -494,13 +497,14 @@ input[type=submit]:hover, .load-more:hover {
 }
 .left-blog {
 	float: left;
-	width: 900px;
+	max-width: 900px;
 	text-align: justify;
 }
 .left-blog img {
-	width: 900px;
+	max-width: 900px;
 	align: center;
 	padding: 0px;
+	width: 100%;
 }
 .left-blog h4 {
 	margin-bottom: 45px;
@@ -534,7 +538,7 @@ input[type=submit]:hover, .load-more:hover {
 }
 .right-blog {
 	float: left;
-	width: 240px;
+	max-width: 240px;
 	text-align: left;
 	margin-left:32px;
 	margin-top:75px;
@@ -565,8 +569,8 @@ input[type=submit]:hover, .load-more:hover {
 }
 .container-about {
 	margin: 150px auto;
-	width: 1100px;
-	height: 600px;
+	max-width: 1100px;
+	min-height: 600px;
 }
 .container-about h1 {
 	font-weight: 380;
@@ -581,7 +585,7 @@ input[type=submit]:hover, .load-more:hover {
 	float: left;
 	font-size: 22px;
 	font-weight: 300;
-	width:600px;
+	max-width:600px;
 	margin-left: 90px;
 	border-right: 1px solid black;
 }
@@ -596,11 +600,13 @@ input[type=submit]:hover, .load-more:hover {
 }
 .animation-img {
 	position: relative; 
-	width: 400px;
+	max-width: 400px;
+	width: 100%;
 }
 .photo-one {
 	position: absolute;
-	width: 400px;
+	max-width: 400px;
+	width: 100%;
 }
 .animation {
 	position:relative;
